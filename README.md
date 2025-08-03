@@ -38,7 +38,7 @@ Foi feito um pré processamento de remoção de NaNs e remoção de colunas que 
 
 ## 📂 Estrutura do Projeto
 ```
-/seu-projeto
+/chatbot_rag
 ├── chatbot-env/                # Ambiente virtual (opcional)
 ├── chroma_db_rag/              # Base vetorial do RAG
 ├── Taboa_PoliticaDeCredito.pdf # Documento de exemplo para o RAG
