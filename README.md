@@ -1,5 +1,7 @@
 # 💬 Chatbot de Análise de Dados Híbrido com RAG e SQL usando API OPENAI
 
+Dir chatbot_rag(Pasta usada no vídeo), Dir chatbot_rag (Pasta Organizada)
+
 Demo [Vídeo](https://youtu.be/zghsB5Qvx2Y)
 
 ## 📖 Sobre o Projeto  
