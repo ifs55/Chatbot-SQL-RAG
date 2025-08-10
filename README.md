@@ -110,7 +110,7 @@ Na barra de pesquisa, digite S3 e acesse o serviço.
 
 Clique no botão laranja "Criar bucket".
 
-Nome do bucket: Escolha um nome único globalmente (nenhum outro usuário da AWS no mundo pode ter um bucket com o mesmo nome). Ex: chatbot-analise-dados-isaac-2025.
+Nome do bucket: Escolha um nome único globalmente (nenhum outro usuário da AWS no mundo pode ter um bucket com o mesmo nome). Ex: chatbot-analise-dados.
 
 Região da AWS: Selecione a região onde o bucket será criado. Recomenda-se usar "América do Sul (São Paulo) sa-east-1" para baixa latência.
 
@@ -160,7 +160,7 @@ A AWS exibirá a ID da chave de acesso e a Chave de acesso secreta. Copie ambos 
 ### 3️⃣ Instalação Local  
 ```bash
 # Clonar repositório
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/ifs55/Chatbot-SQL-RAG/tree/main
 cd seu-repositorio
 
 # Criar ambiente virtual
@@ -202,3 +202,4 @@ Para consultar os documentos (RAG):
 - Certifique-se de ter **AWS CLI** configurado localmente.  
 - O roteador usa **LLM** para decidir entre SQL e RAG, portanto o custo depende do provedor escolhido.  
 - Para grandes volumes de PDFs, considere otimizar a indexação no **ChromaDB**.  
+
