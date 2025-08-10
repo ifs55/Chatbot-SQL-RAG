@@ -1,16 +1,10 @@
 import pandas as pd
 
-# Coloque o nome exato do seu arquivo aqui
 nome_do_arquivo = r'train.gz' 
 
 print(f"Tentando ler o arquivo '{nome_do_arquivo}'...")
 
 try:
-    # O pandas detecta a compressão .gz e lê o arquivo CSV diretamente
-    # O parâmetro 'error_bad_lines=False' pode ser útil se algumas linhas estiverem corrompidas
-    # O 'warn_bad_lines=True' irá avisá-lo sobre linhas com problemas.
-    # Em versões mais recentes do pandas, esses parâmetros foram substituídos por on_bad_lines='skip' ou 'warn'.
-    # Vamos usar um try-except para compatibilidade.
     
     try:
         df = pd.read_csv(nome_do_arquivo, compression='gzip', sep=',')
